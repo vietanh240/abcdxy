@@ -1,96 +1,62 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta name="description" content="first website" />
-	<meta name="author" content="Viet Anh" />
-	<meta name="Country" content="Viet Nam"/>
-	<meta charset="utf-8"/>
-	<link rel="stylesheet" href="index.css">
-	<title>Web Viet Anh</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Linh Phương</title>
+    <link rel="stylesheet" href="canvas.css" />
+    <link rel="stylesheet" href="present.css" />
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="jquery.js"></script>
+  </head>
+  <body>
+    <div class="parent">
+      <canvas id="canvas"></canvas>
+      <section class="above-fold">
+        <div class="wrap-present">
+          <div class="present-box" id="present">
+            <div class="present">
+              <div class="img-wrap" id="present-image"></div>
+            </div>
+            <div class="side front"></div>
+            <div class="side back"></div>
+            <div class="side left"></div>
+            <div class="side right"></div>
+            <div class="side top">
+              <span class="to">
+                <span class="name" id="nametag"> </span>
+              </span>
+            </div>
+            <div class="side bottom"></div>
+          </div>
+        </div>
+        <p class="info-text">Click to Open</p>
+      </section>
 
-<body>
-	<script src="main.js"></script>
-	<nav>
-		<a href="#Contact">Contact</a>
-		<a href="#Scores">Scores</a>
-		<a href="#Hyperlink">Hyperlink</a>
-		<a href="#Education">Education</a>
-	</nav>
-	<div id="xxx">
-		<h1 id="Menu_text" >My Resume Viet Anh</h1>
-		<center>
-			<p >My name is <strong>Nguyen Viet Anh</strong></p>
-			<img src="rtmx.png" class="avatar" alt="Picture error" width="100" height="100"/>
-			<br><br>
-			<button class="button" onclick="window.location.href='https://www.facebook.com/profile.php?id=100075505382102';">Facebook</button> <br>
-			<button class="button" onclick="window.location.href='https://zalo.me/0353536645';">Zalo</button> <br>
-			<button class="button" >Email</button>
-		</center>
-	</div>
-	<hr>
+      <div id="card">
+        <h4 class="title-card">💘little coder💘</h4>
 
-	<h2 id="Education">Education</h2>
-	<img src="https://i.imgur.com/c4iSN1i.png" width="200">
-	<p>Mình là một học sinh</p>
-	<p>Hiện tại mình đang học tại trường THPT Lê Quý Đôn-Thái Bình</p> 
-	<p>Mình đang cố gắng học để hoàn thiện bản thân hơn. Đối với mình mỗi ngày chỉ cần cố gắng hơn một chút thì tương lai sẽ chắc chắn tốt hơn</p>
-	<hr>
+        <img
+          src="image.png"
+          class="honey"
+        />
 
-	<h2 id="Contact">Contact information</h2>
-	<ul>
-		<li><strong>Họ tên:  </strong>Nguyen Viet Anh </li>
-		<li><strong>Ngày sinh:  </strong>24/2/2006</li>
-		<li><strong>Quốc gia:  </strong>Viet Nam </li>
-		<li><strong>Class:  </strong>10a1 </li>
-		<li><strong>Zalo:  </strong>0353536645 </li>
-	</ul>
-	<hr>
-
-	<h2 id="Scores" >Scores</h2>
-	<table border="1">
-		<tr>
-			<th></th>
-			<th>Math</th>
-			<th>Physics</th>
-			<th>Chemistry</th>
-		</tr>
-		<tr>
-			<th>Semeter 1</th>
-			<td>10</td>
-			<td>10</td>
-			<td>10</td>
-		</tr>
-		<tr>
-			<th>Semeter 2</th>
-			<td>10</td>
-			<td>10</td>
-			<td>10</td>
-		</tr>
-	</table>
-	<hr>
-
-	<h2 id="Hyperlink" >Hyperlink</h2>
-	<p><strong>Facebook: </strong><a href="https://www.facebook.com/profile.php?id=100075505382102">Nguyen Viet Anh</a></p>
-	<footer>
-		<p><em> Created by Viet Anh - <a href="mailto:rtmx24@gmail.com">Email me</a></em></p>
-	</footer>
-	<hr>
-
-<!-- 	<h2>TEST</h2>
-	<input type="text" name="">
-	<h2>TEST</h2>
-	<input type="checkbox" name="">
-	<input type="checkbox" name="">
-	<input type="checkbox" name="">
-	<h2>TEST</h2>
-	<input type="radio" name="gender">
-	<input type="radio" name="gender">
-	<br><button>TEST</button>
-	<h2 id="test">TEST</h2>
-	<h2 class="test">TEST</h2>
-	<h2 class="test">TEST</h2>
-	<h2 >TEST</h2> -->
-
-</body>
+        <h4 class="content-card">
+          Happy Birthday Make A Wish. Dear brother, hope you receive everything
+          you wish for this year. You deserve the best! Thanks for being such a
+          great brother.💘
+        </h4>
+      </div>
+    </div>
+    <audio autoplay loop  id="playAudio">
+      <source src="nhacnen.mp3">
+    </audio>
+  </body>
+  <script src="config.js"></script>
+  <script src="canvas.js"></script>
+  <script src="present.js"></script>
+  <script>
+    
+  </script>
 </html>
