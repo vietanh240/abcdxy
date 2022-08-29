@@ -1,4 +1,4 @@
-const nameGirl = 'Linh Phương';
+const nameGirl = 'Thu Hương';
 const giftUrl = 'https://www.facebook.com/profile.php?id=100075505382102';
 const eventName = 'Hương Thu';
 const titleCard = 'Chúc Mừng Sinh Nhật Trần Thu Hương';
